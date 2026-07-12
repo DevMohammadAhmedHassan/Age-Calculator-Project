@@ -17,9 +17,13 @@ const calculateAge = () => {
         let calAge = new Date().getFullYear() - Number(userAge[0]);
         console.log(calAge);
 
+        resultEl.style.fontWeight = "bold";
+
         resultEl.innerHTML = `Your age is ${calAge} years old.`;
     }
     else{
+        resultEl.style.color = "red";
+        resultEl.style.fontWeight = "bold";
         resultEl.innerHTML = "Please enter a valid year.";
     }
 }
