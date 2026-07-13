@@ -58,3 +58,15 @@ body {
 /* .age-output {
   font-weight: bold;
 } */
+
+.credit{
+  text-align: center;
+}
+
+/* Media Queries */
+@media all and (max-width: 560px) {
+  .container {
+    width: 60%;
+    /* padding: 20px; */
+  }
+}
